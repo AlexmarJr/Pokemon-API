@@ -68,9 +68,9 @@
                     renderPokemon(data);
 
                     setTimeout(function() {
-                        $('#who_is').fadeOut(200);
-                        $('#pokemon_details').fadeIn(200);
-                    }, 200);
+                        $('#who_is').fadeOut(1000);
+                        $('#pokemon_details').fadeIn(1000);
+                    }, 2500);
                 },
                 error: function() {
                     alert('Erro while searching Pokemon, Trry again');
