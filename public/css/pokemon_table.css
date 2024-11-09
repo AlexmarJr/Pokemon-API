@@ -1,0 +1,111 @@
+    /* Change the text color of the search input */
+    .dataTables_filter input {
+        color: white;
+        background-color: #333; /* Optional: Add background color */
+    }
+
+        /* Change the text color of the search label (e.g., "Search:") */
+    .dataTables_filter label {
+        color: white; /* Change label text color */
+    }
+
+    /* Change the color of the pagination buttons (Previous, Next) */
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        color: white; /* Text color */
+        background-color: #333; /* Background color */
+        border-color: #555; /* Border color */
+    }
+
+    /* Hover effect for pagination buttons */
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+        background-color: #444;
+        border-color: #666;
+    }
+
+    /* Hover effect for page numbers */
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+        color: white; /* Hover text color */
+        background-color: #555; /* Background color on hover */
+    }
+
+    /* Change the active page number color */
+    .dataTables_wrapper .dataTables_paginate .paginate_button.page-item.active {
+        color: #fff;
+        background-color: #FF2D20; /* Active page color */
+        border-color: #FF2D20; /* Active page border color */
+    }
+
+    /* Styling for "Previous" and "Next" buttons */
+    .dataTables_wrapper .dataTables_paginate .paginate_button.previous,
+    .dataTables_wrapper .dataTables_paginate .paginate_button.next {
+        color: white; /* Text color for previous/next buttons */
+    }
+
+    /* Example of forcing styles */
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        color: white !important;
+        background-color: #333 !important;
+    }
+
+    #pokemon_table {
+        width: 50%;             /* Reduce the table width */
+        margin: 0 auto;         /* Center the table */
+        font-size: 14px;        /* Decrease the font size */
+    }
+
+    #pokemon_table th, #pokemon_table td {
+        padding: 8px;           /* Reduce padding for compactness */
+    }
+
+    #pokemon_table td {
+        text-align: center;     /* Center-align the text */
+    }
+
+    /* Ensure table takes full width and is aligned */
+    #pokemon_table {
+        width: 100%;             /* Make table take full width */
+        margin: 0 auto;          /* Center the table */
+        font-size: 14px;         /* Compact font size */
+    }
+
+    /* Style the DataTable wrapper */
+    .dataTables_wrapper {
+        width: 50%;             /* Ensure wrapper spans full width */
+        margin: 0 auto;          /* Center the wrapper */
+    }
+
+    /* Center the search bar */
+    .dataTables_filter {
+        text-align: center;      /* Center the search input */
+        margin-bottom: 20px;     /* Add some spacing at the bottom */
+    }
+
+    /* Adjust pagination positioning */
+    .dataTables_paginate {
+        display: flex;
+        justify-content: center; /* Center pagination buttons */
+        margin-top: 20px;        /* Add some spacing between the table and pagination */
+    }
+
+    /* Customize pagination buttons */
+    .dataTables_paginate .paginate_button {
+        padding: 6px 12px;       /* Smaller padding for buttons */
+        font-size: 12px;         /* Adjust font size */
+    }
+
+    /* Handle smaller pagination buttons hover */
+    .dataTables_paginate .paginate_button:hover {
+        background-color: #444;
+        color: white;
+    }
+
+    /* Hover effect for table rows */
+    #pokemon_table tbody tr:hover {
+        background-color: #271e1e62 !important; /* Light grey background on hover */
+        cursor: pointer;          /* Change cursor to pointer */
+    }
+
+    /* Optional: Style the text inside the row */
+    #pokemon_table tbody tr:hover th {
+        color: black !important;  /* Darker text color on hover */
+    }
