@@ -46,6 +46,8 @@ function renderPokemon(data) {
     data.stats.forEach(function(stat) {
         $("#" + stat.stat.name + '_value').text(stat.base_stat);
     });
+
+    randomNum = data.id;
 }
 
 function cleanPokemonData() {
