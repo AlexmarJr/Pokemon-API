@@ -7,7 +7,7 @@
 
 <div class="flex justify-between w-full">
     <a href="/home" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mx-2">Home</a>
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mx-2" onclick="randomPokemon()">Randomize Pokemon</button>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mx-2" onclick="randomPokemon()">Random Pokemon</button>
     <a href="/list" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mx-2">List</a>
 </div>
 
