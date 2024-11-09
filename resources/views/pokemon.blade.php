@@ -11,7 +11,7 @@
     <a href="/list" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mx-2">List</a>
 </div>
 
-<div class="flex justify-center items-start rounded-lg bg-white shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20] mt-10 relative">
+<div class="flex justify-center items-start rounded-lg bg-white shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20] mt-10 relative" id="pokemon_details">
     <!-- Seta esquerda (Font Awesome) -->
     <div class="absolute left-0 top-1/2 transform -translate-y-1/2 text-5xl cursor-pointer hover:text-blue-500 transition-all duration-200 animate-pulse" onclick="nextOrPrevius(-1)">
         <i class="fas fa-chevron-left"></i>
@@ -57,7 +57,8 @@
     });
     var randomNum ;
     function randomPokemon(){
-            $('#who_is').show();
+        $('#who_is').show();
+        $('#pokemon_details').hide();
             // Gerar número aleatório entre 1 e 1025
             randomNum = Math.floor(Math.random() * 1025) + 1;
 
